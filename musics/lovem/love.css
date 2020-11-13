@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/musics/zarubejm/GYlk.gif);
+}
+
+h2{
+    margin-top: 5%;
+    margin-left: 05%;
+    font-size: 4em;
+    font-style: italic;
+    
+    color: red;
+    
+}

@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(/images/d45ef24318faeafe27d0304f0a09534a.jpg);
+}
+.fon{
+    display: flex;
+    justify-content: center;
+ 
+    margin-top: 4%;
+ 
+    font-size: 3em;
+    font-style: italic;
+    background-color: rgb(87, 195, 228);
+    color: rgb(202, 19, 19);
+    
+}
+.img1{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-around;
+}
+.img2{
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-around;
+}

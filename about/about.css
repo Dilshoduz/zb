@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: consolas;
+}
+body{
+    
+    background-image: url(/about/Cal.gif);
+    min-height: 100vh;
+
+}
+.box{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    background-color: royalblue;
+    justify-content: center;
+}
+.name{
+    position: relative;
+    -webkit-box-reflect: below -12px linear-gradient(transparent,rgba(0,0,0,0.2));
+
+}
+.name span{
+    position: relative;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-size: 2.4em;
+    text-transform: uppercase;
+    animation: animate 1s ease-in-out infinite;
+    animation-delay: calc(0.1s * var(--i));
+}
+@keyframes animate
+{
+  0%{
+      transform: translateY(0px);
+  }
+  20%{
+    transform: translateY(-20px);
+}
+40%,100%{
+    transform: translateY(0px);
+}
+
+
+
+}
+
+
+.dd{
+    margin-left: 3%;
+    position: relative;
+    -webkit-box-reflect: below -12px linear-gradient(transparent,rgba(0,0,0,0.2));
+}
+.dd span{
+    position: relative;
+    display: inline-block;
+    color: deepskyblue;
+    font-size: 2.4em;
+    text-transform: uppercase;
+    animation: animatsiya 1s ease-in-out infinite;
+    animation-delay: calc(0.1s * var(--i));
+   
+}
+@keyframes animatsiya
+{
+  0%{
+      transform: translateY(0px);
+  }
+  20%{
+    transform: translateY(-20px);
+}
+40%,100%{
+    transform: translateY(0px);
+}
+
+
+
+}
+.aboutbox1{
+
+    display: flex;
+    
+}
+
+
+.abouth2{
+    margin-left: 6px;
+    animation-name: toBott;
+    animation-duration: 2s;
+    
+    color: rgb(118, 241, 114);
+}
+.abouth21{
+    margin-top: -2%;
+    margin-left: 15px;
+    animation-name: toBott;
+    animation-duration: 4s;
+    color: rgb(221, 219, 94);
+}
+@keyframes toBott {
+    0%{
+        opacity: 0;
+        bottom:-200px;
+    }
+    50%{
+        opacity: 0;
+        bottom:-300px;
+    }
+    100%{
+        opacity: 1;
+        bottom: 0px;
+    }
+}
+
+.aboutman{
+    margin-left: 15%;
+    
+}
+
+.google{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}

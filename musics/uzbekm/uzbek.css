@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url(/musics/uzbekm/Uq1t.gif);
+}
+h3{
+    color: rgb(90, 226, 102);
+    font-style: italic;
+    font-size: 2em;
+    background-color: rgb(69, 129, 153);
+    margin-left: 15%;
+    margin-top: 5%;
+    animation-name: uzbb;
+    animation-duration: 2s;
+    
+}

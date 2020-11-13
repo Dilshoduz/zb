@@ -1,0 +1,466 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type:none;
+}
+body{
+    font-family: montserrat;
+    background-image: url(/gif/GpAy.gif);
+
+}
+.menu{
+    background: rgba(172, 245, 245, 0.479);
+    width: 100%;
+    height: 80px;
+}
+.logo{
+    color: rgb(34, 2, 2);
+    font-size: 50px;
+    line-height: 60px;
+    padding: 0 100px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 17px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: rgb(3, 3, 3);
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+.menu a:hover{
+    background: #126327;
+    transition: .5s;
+}
+
+
+
+
+.box1{
+    margin-top: 80%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-size: 2em;
+    text-shadow: rgb(45, 51, 45);
+    font-style: italic;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    align-self: flex-end;
+}
+
+.box1 p {
+    justify-content: space-around;
+    float: left;
+    margin: 15px 15px;
+    margin-top: 4%;
+    margin-left: 4%;
+    font-size: 1em;
+    text-transform: uppercase;
+    display: block;
+
+} 
+ .hello{
+    float: left;
+    margin: 15px 15px;
+    position: relative;
+    animation-name: toBottom;
+    animation-duration: 1s;
+    color: rgb(15, 175, 0);
+ }
+ .name{
+    float: left;
+    margin: 15px 15px;
+    position: relative;
+    animation-name: toBottom;
+    animation-duration: 2.3s;
+    color: rgb(0, 0, 0);
+ }
+ .web{
+    float: left;
+    margin: 15px 15px;
+    position: relative;
+    animation-name: toBottom;
+    animation-duration: 3.4s;
+    color: rgb(0, 124, 0);
+ }
+ .data{
+     margin-top: 10%;
+     margin-left: -70%;
+     animation-name: Dataanimation;
+     animation-duration: 4s;
+
+ }
+ .dataong{
+     margin-top: 13%;
+     margin-left: 5%;
+     animation-name: Dataanimation;
+     animation-duration: 6s;
+ }
+ @keyframes Dataanimation{
+    0%{
+        opacity: 0;
+        bottom:-200px;
+    }
+    50%{
+        opacity: 0;
+        bottom:-300px;
+    }
+    100%{
+        opacity: 1;
+        bottom: 0px;
+    }
+
+ }
+@keyframes toBottom {
+    0%{
+        opacity: 0;
+        bottom:-200px;
+    }
+    50%{
+        opacity: 0;
+        bottom:-300px;
+    }
+    100%{
+        opacity: 1;
+        bottom: 0px;
+    }
+}
+
+ .btn{
+    margin: 1.8rem;
+    background: var(--sky);
+    
+}
+.btn:hover{
+    background: transparent;
+    border: 5px solid var(--white);
+    color: var(--white);
+} */
+
+ button.btn2{
+    border: none;
+    border-radius: 10px;
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    font-family: var(--Livvic);
+    cursor: pointer;
+    color: black;
+    border-bottom: black;
+    border: 4px solid black;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.btn2{
+    width: 20%;
+    height: 10%;
+    margin: 1rem;
+    background: aqua;
+    margin-left: 30%;
+    
+    
+}
+
+.btn2:hover{
+    color: rgb(198, 192, 255);
+    border-bottom: olivedrab;
+    border: 4px solid black;
+    border-radius: 10px;
+    font-size: 1em;
+    border:darkblue;
+    background: transparent;
+    border: 20px solid var(--white);
+    color: var(--white);
+} 
+
+
+.box4{
+    float: left;
+    margin: 15px 15px;
+    border: 2px solid rgb(0, 225, 255);
+    width: 21%;
+    height: 400px;
+    padding: 5px;
+    background-image: url(/images/fonn.jpg);
+    border-radius: 15px;
+    animation-name: animation;
+    animation-duration: 2s;
+}
+.box5{
+    float: left;
+    margin: 15px 15px;
+    border: 2px solid rgb(0, 102, 255);
+    width: 21%;
+    height: 400px;
+    padding: 5px;
+    background-image: url(/images/tepagastiker.jpg);
+    border-radius: 15px;
+    animation-name: animation;
+    animation-duration: 3.2s;
+    }
+.box6{
+    float: left;
+    margin: 15px 15px;
+    border: 2px solid rgb(0, 4, 255);
+    width: 21%;
+    height: 400px;
+    padding: 5px;
+    background-color: rgb(211, 62, 62);
+    border-radius: 15px;
+    animation-name: animation;
+    animation-duration: 4.6s;
+     }
+     .status{
+         float: left;
+     margin: 15px 15px;
+     border: 2px solid rgb(0, 225, 255);
+     width: 21%;
+     height: 400px;
+     padding: 5px;
+     background-image: url(/images/fonn.jpg);
+     border-radius: 15px;
+     animation-name: animation;
+     animation-duration: 5.5s
+
+
+     }
+
+
+ 
+
+     @keyframes animation{
+        0%{
+            opacity: 0;
+            bottom:-200px;
+        }
+        50%{
+            opacity: 0;
+            bottom:-auto;
+        }
+        100%{
+            opacity: 1;
+            bottom: 0px;
+        }
+    }
+    
+     .bolim{
+         text-align: center;
+         color: rgb(10, 48, 20);
+         font-style: italic;
+         font-size: 2em;
+     }
+
+
+     .box3{
+         width: 200px;
+         height: 150px;
+         margin-top: 10%;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        min-height: 100h;
+        font-family: consolas;
+        justify-content: end;
+        margin-left: 18%;
+
+    }    
+    .logo a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0s;
+    }
+    a:hover{
+        border: 5px solid black;
+        color: black;
+        background: #2196f3;
+        box-shadow: 0 0 10px #2196f3,0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px;
+        transition-delay: 0.7s;
+    }
+    .linklar{
+        margin-top: 150%;
+        margin-left: -80%;
+    }
+
+
+    .box7{
+        width: 100%;
+        height: 200px;       
+        display: flex;
+        background-image: url(./images/d45ef24318faeafe27d0304f0a09534a.jpg);
+        font-size: 2em;
+    }
+    .box7 p {
+        margin-top: 5%;
+        color: rgb(47, 97, 190);
+        
+    }
+
+
+
+    .contactus{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+      }
+      
+      .btn0{
+        width: 140px;
+        height: 45px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: #000;
+        background-color: #fff;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0,0,0,0.1);
+        cursor: pointer;
+        outline: none;
+        transition: all 0.3s ease 0s;
+      }
+      
+      .btn0:hover {
+        background-color: #2EE59D;
+        box-shadow: 0px 15px 20px rgba(46,229,157,0.4);
+        color: #fff;
+        transform: translateY(-7px);
+      }
+      .afarizm{
+          display: flex;
+          justify-content:space-around;
+          margin-top: 25%;
+          margin-left: 2%;
+
+
+      }
+      .afarizm h1{
+          font-size: 2.5em;
+          font-style: italic;
+          color: rgb(53, 250, 234);
+          animation-name: Class;
+          animation-duration: 2s;
+      }
+      .karimov{
+        animation-name: Class;
+        animation-duration: 4s;
+      }
+      .iak{
+          color: rgb(216, 214, 238);
+          font-size: 2.8em;
+          font-style: italic;
+          margin-left: 5%;
+          animation-name: Class;
+          animation-duration: 6s;
+      }
+      @keyframes Class{
+        0%{
+            opacity: 0;
+            bottom:-200px;
+        }
+        50%{
+            opacity: 0;
+            bottom:-300px;
+        }
+        100%{
+            opacity: 1;
+            bottom: 0px;
+        }
+    }
+      .box8{
+          width: 100%;
+          height: 40%;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          margin-top: 25%;
+          
+      }
+      .box8 p {
+          color: rgb(241, 232, 98);
+          font-style: italic;
+          font-size: 3em;
+      }
+      .eshik{
+          display: flex;
+          width:30%;
+          height: 100%;
+          color: pink;
+          border-radius: 10px;
+          background-color: black;
+
+      }
+      .game h2{
+          color: rgb(0, 0, 0);
+          font-size: 2.4em;
+          background-color: rgb(144, 200, 207);
+          background-image:url(/gif/afefa01082ac9b140e1f993213acbf90ba839de3_hq.gif);
+      }
+      .btngame{
+          margin-top: 5%;
+          margin-left: 35%;
+        width: 30%;
+        height: 10%;
+        font-size: 2em;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: #000;
+        background-color: rgb(101, 235, 206);
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0,0,0,0.1);
+        cursor: pointer;
+        outline: none;
+        transition: all 0.3s ease 0s;
+      }
+      .btngame:hover{
+
+        background-color: #0e189e;
+        box-shadow: 0px 15px 20px rgba(46,229,157,0.4);
+        color: rgb(98, 228, 116);
+        transform: translateY(-7px);
+      }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
